@@ -1,0 +1,1000 @@
+ 1025  java -jar target/echo-server-0.0.0-SNAPSHOT-jar-with-dependencies.jar 
+ 1026  docker ps
+ 1027  mvn package -DskipTests
+ 1028  docker build -t echo-server:0.0.0-snapshot .
+ 1029  docker images
+ 1030  docker rmi -f 36a87bdaaa4c
+ 1031  docker images
+ 1032  docker run echo-server:0.0.0-snapshot
+ 1033  git clone git@gitlab.wethinkco.de:nknkosi/echo-server.git 
+ 1034  mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=za.co.wethinkcode -DartifactId=echo-server
+ 1035  clear
+ 1036  ls
+ 1037  cd echo-server/
+ 1038  git status
+ 1039  git add.
+ 1040  git add .
+ 1041  git status
+ 1042  git commit -m "did the practice docker image"
+ 1043  git push
+ 1044  curl http://localhost:9000
+ 1045  docker exec -it peaceful_maxwell /bin/bash
+ 1046  dockerimages
+ 1047  docker images
+ 1048  docker ps
+ 1049  docker run -p 9000 echo-server:0.0.0-snapshot
+ 1050  docker run -p 9000 ec1:9000 echo-server:0.0.0-snapshot
+ 1051  docker ps
+ 1052  sudo chmod 666 /var/run/docker.sock
+ 1053  docker ps
+ 1054  docker run echo-server:0.0.0-snapshot
+ 1055  docker ps
+ 1056  docker run -p 9000 echo-server:0.0.0-snapshot
+ 1057  docker run -p 9001:9000 echo-server:0.0.0-snapshot
+ 1058  curl https://localhost:9001
+ 1059  curl http://localhost:9001
+ 1060  docker run -p 9001:9000 echo-server:0.0.0-snapshot
+ 1061  docker ps
+ 1062  curl http://localhost:9000
+ 1063  docker exec -it admiring_sutherland /bin/bash
+ 1064  docker images
+ 1065  docker run echo-server:0.0.0-snapshot
+ 1066  docker images
+ 1067  docker login -u nknkosi -p yzqDGidNLkd7miwDZDks gitlab.wethinkcode.de:5050
+ 1068  docker login -u nknkosi -p yzqDGidNLkd7miwDZDks gitlab.wethinkco.de:5050
+ 1069  docker tag echo-server:0.0.0-snapshot gitlab.wethinkco.de:5050/nknkosi/echoserver
+ 1070  docker push gitlab.wethinkco.de:5050/nknkosi/echoserver
+ 1071  cd app/
+ 1072  flutter run
+ 1073  clear
+ 1074  cd app/
+ 1075  flutter run
+ 1076  clear
+ 1077  cd ..
+ 1078  cd QuteQuoteServer/
+ 1079  ls
+ 1080  mvn exec:java
+ 1081  cd app/
+ 1082  flutter run
+ 1083  cd QuteQuoteServer/
+ 1084  mvn exec:java
+ 1085  mkdir PersonalTokenDocker
+ 1086  cd PersonalTokenDocker/
+ 1087  touch persona_access_token
+ 1088  vi persona_access_token 
+ 1089  cd uss-newton/
+ 1090  git status
+ 1091  git pull
+ 1092  mvn package -DskipTests
+ 1093  sudo update-alternatives --display java
+ 1094  java jdk
+ 1095  java
+ 1096  which java
+ 1097  jdk
+ 1098  sudo docker build -t serverclient:1.0
+ 1099  sudo docker build -t serverclient:1.0 .
+ 1100  /bin/sh -c 
+ 1101  /bin/sh
+ 1102  sudo docker build -t serverclient:1.0 .
+ 1103  sudo docker run serverclient:1.0
+ 1104  clear
+ 1105  sudo docker images
+ 1106  docker rmi -f 84d639496545 
+ 1107  sudo docker rmi -f 84d639496545 
+ 1108  sudo docker images
+ 1109  clear
+ 1110  sudo docker build -t serverclient:1.0 .
+ 1111  clear
+ 1112  sudo docker build -t serverclient:1.0 .
+ 1113  clear
+ 1114  sudo docker build -t serverclient:1.0 .
+ 1115  clear
+ 1116  sudo docker build -t serverclient:1.0 .
+ 1117  clear
+ 1118  sudo docker build -t serverclient:1.0 .
+ 1119  clear
+ 1120  sudo docker build -t serverclient:1.0 .
+ 1121  clear
+ 1122  sudo docker build -t serverclient:1.0 .
+ 1123  clear
+ 1124  sudo docker build -t serverclient:1.0 .
+ 1125  clear
+ 1126  sudo docker build -t serverclient:1.0 .
+ 1127  clear
+ 1128  sudo docker build -t serverclient:1.0 .
+ 1129  clear
+ 1130  sudo docker build -t serverclient:1.0 .
+ 1131  clear
+ 1132  sudo docker build -t serverclient:1.0 .
+ 1133  clear
+ 1134  sudo update-alternatives --display java
+ 1135  flutter clean
+ 1136  ls
+ 1137  cd app/
+ 1138  flutter clean
+ 1139  flutter run
+ 1140  clear
+ 1141  flutter run
+ 1142  clear
+ 1143  flutter run
+ 1144  cd uss-newton/
+ 1145  git branch -a
+ 1146  git checkout kxmo
+ 1147  ls
+ 1148  git branch -a
+ 1149  git status
+ 1150  git checkout main
+ 1151  git branch -a
+ 1152  clear
+ 1153  wtc-lms login
+ 1154  wtc-lms start_assessment
+ 1155  cd Problems/assessments/
+ 1156  code .
+ 1157  cd 
+ 1158  wtc-lms submit_assessment
+ 1159  wtc-lms current_iteration
+ 1160  python3
+ 1161  /bin/python3 /home/nkosingiphilenkosi/linked/like.py
+ 1162  mvn package
+ 1163  ls
+ 1164  cd robot_server/
+ 1165  ls
+ 1166  mvn package
+ 1167  clear
+ 1168  mvn package
+ 1169  clear
+ 1170  mvn package
+ 1171  clear
+ 1172  mvn package -DskipTests
+ 1173  cd uss-newton/
+ 1174  git status
+ 1175  git add .
+ 1176  git status
+ 1177  git commit -m 'changed unsupported switch cases for java 11' 
+ 1178  git status
+ 1179  git pull
+ 1180  git status
+ 1181  cd 
+ 1182  ls
+ 1183  clear
+ 1184  git clone git@gitlab.wethinkco.de:mmehloma/uss-newton.git
+ 1185  ls
+ 1186  cd uss-newton/
+ 1187  cd 
+ 1188  git clone git@gitlab.wethinkco.de:mmehloma/uss-newton.git
+ 1189  ls
+ 1190  cd uss-newton/
+ 1191  git status
+ 1192  git clone git@gitlab.wethinkco.de:smzimela/uss-mayflower.git
+ 1193  git clone https://gitlab.wethinkco.de/smzimela/my-app.git
+ 1194  clear
+ 1195  git clone git@gitlab.wethinkco.de:smzimela/my-app.git
+ 1196  git clone git@gitlab.wethinkco.de:smzimela/uss-mayflower.git
+ 1197  clear
+ 1198  cd uss-newton/
+ 1199  git status
+ 1200  git restore .
+ 1201  git status
+ 1202  git restore --staged robot_server/.idea/jpa-buddy.xml
+ 1203  git status
+ 1204  git add .
+ 1205  git commit -m "pulling"
+ 1206  git status
+ 1207  git pull
+ 1208  clear
+ 1209  curl http://localhost:9001
+ 1210  sudo docker ps
+ 1211  sudo docker run -p 9001:9000 serverclient:1.0
+ 1212  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1213  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1214  sudo docker push gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1215  docker push gitlab.wethinkco.de:5050/nknkosi/echoserverdenied: requested access to the resource is denied
+ 1216  docker push help
+ 1217  sudo docker push help
+ 1218  sudo docker push --help
+ 1219  clear
+ 1220  sudo docker images
+ 1221  sudo docker push gitlab.wethinkco.de:5050/mmehloma/uss-newton
+ 1222  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/mmehloma/uss-newton
+ 1223  sudo docker push gitlab.wethinkco.de:5050/mmehloma/uss-newton
+ 1224  sudo docker images
+ 1225  sudo docker push gitlab.wethinkco.de:5050/uss-newton
+ 1226  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/mmehloma/uss-newton
+ 1227  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/mmehloma/uss-newton:latest
+ 1228  sudo docker push gitlab.wethinkco.de:5050/mmehloma/uss-newton:latest
+ 1229  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1230  sudo docker push gitlab.wethinkco.de:5050/uss-newton
+ 1231  clear
+ 1232  sudo docker images
+ 1233  sudo docker rmi -f 801b37d22cb1
+ 1234  sudo docker ps
+ 1235  sudo docker stop nervous_murdock
+ 1236  sudo docker ps
+ 1237  sudo docker stop suspicious_kowalevski
+ 1238  sudo docker ps
+ 1239  sudo docker rmi -f 801b37d22cb1
+ 1240  sudo docker images
+ 1241  sudo docker build -t serverclient:1.0 .
+ 1242  sudo docker run serverclient:1.0
+ 1243  touch robotworldTokens
+ 1244  ls
+ 1245  vi robotworldTokens 
+ 1246  clear
+ 1247  cd uss-newton/
+ 1248  git status
+ 1249  git add .
+ 1250  git commit -m "checking container runs"
+ 1251  git commit -m "verifying"
+ 1252  git status
+ 1253  sudo docker ps
+ 1254  history
+ 1255  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf
+ 1256  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1257  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1258  sudo docker push serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1259  sudo docker push gitlab.wethinkco.de:5050/nknkosi/uss-newton:latest
+ 1260  sudo docker push -f gitlab.wethinkco.de:5050/nknkosi/uss-newton:latest
+ 1261  sudo docker ps
+ 1262  sudo docker stop tender_haslett
+ 1263  sudo docker ps
+ 1264  sudo docker images
+ 1265  sudo docker rmi -f 04e84d8adc56 
+ 1266  sudo docker images
+ 1267  sudo docker build -t severclient:1.0 .
+ 1268  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1269  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1270  sudo docker images
+ 1271  sudo docker rmi -f 3728375d97ba 
+ 1272  sudo docker images
+ 1273  sudo docker build -t serverclient:1.0 .
+ 1274  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1275  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1276  sudo docker images
+ 1277  sudo docker push gitlab.wethinkco.de:5050/uss-newton:serverclient
+ 1278  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/serverclient
+ 1279  sudo docker push gitlab.wethinkco.de:5050/nknkosi/serverclient
+ 1280  sudo docker images
+ 1281  docker login gitlab.wethinkco.de:5050
+ 1282  clear
+ 1283  sudo docker images
+ 1284  sudo docker rmi -f 092eb4167a83 
+ 1285  sudo docker images
+ 1286  clear
+ 1287  sudo docker build -t serverclient:1.0 .
+ 1288  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1289  sudo docker push gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1290  sudo docker push gitlab.wethinkco.de:5050/nknkosi/uss-newton/serverclient
+ 1291  sudo docker images
+ 1292  sudo docker rmi -f 0c652a6fe7f5 
+ 1293  sudo docker images
+ 1294  sudo docker build -t serverclient:1.0 .
+ 1295  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton/serverclient
+ 1296  sudo docker push gitlab.wethinkco.de:5050/nknkosi/uss-newton/serverclient
+ 1297  sudo docker images
+ 1298  sudo docker rmi -f acc05651e0d1 
+ 1299  sudo docker images
+ 1300  sudo docker build -t serverclient
+ 1301  sudo docker images
+ 1302  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1303  sudo docker push gitlab.wethinkco.de:5050/serverclient
+ 1304  sudo docker images
+ 1305  docker logout
+ 1306  sudo docker login -u nknkosi -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1307  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/nknkosi/uss-newton
+ 1308  sudo docker push gitlab.wethinkco.de:5050/uss-newton
+ 1309  sudo docker login -u mmehloma -p xkpBex7gW4kmumK8q8Xf gitlab.wethinkco.de:5050
+ 1310  sudo docker tag serverclient:1.0 gitlab.wethinkco.de:5050/mmehloma/uss-newton
+ 1311  sudo docker push gitlab.wethinkco.de:5050/mmehloma/uss-newton
+ 1312  sudo docker images
+ 1313  clear
+ 1314  cd uss-newton/
+ 1315  git status
+ 1316  git pull
+ 1317  ls
+ 1318  cd ..
+ 1319  ls
+ 1320  cd robot_
+ 1321  cd robot_app/
+ 1322  flutter run
+ 1323  cd ..
+ 1324  cd robot_app/
+ 1325  flutter run
+ 1326  java
+ 1327  clear
+ 1328  ls
+ 1329  mkdir UnderstandingObjectOrientaited
+ 1330  ls
+ 1331  cd UnderstandingObjectOrientaited/
+ 1332  touch starter.java
+ 1333  ls
+ 1334  code .
+ 1335  mkdir bored
+ 1336  ls
+ 1337  mkdir DiaryEntry
+ 1338  la
+ 1339  ls
+ 1340  /bin/python3 /home/nkosingiphilenkosi/bored/hello.py
+ 1341  clear
+ 1342  /bin/python3 /home/nkosingiphilenkosi/bored/hello.py
+ 1343  cd DiaryEntry/
+ 1344  touch storyOfmyLife
+ 1345  ls
+ 1346  /bin/python3 /home/nkosingiphilenkosi/submission_005-toy-robot-2/robot.py
+ 1347  clear
+ 1348  ls
+ 1349  cd QuteQuoteServer/
+ 1350  cd app/
+ 1351  flutter run
+ 1352  clear
+ 1353  git clone git@gitlab.wethinkco.de:nknkosi/myfinestapp.git
+ 1354  ls
+ 1355  cd myfinestapp/
+ 1356  code .
+ 1357  sudo apt update && sudo apt upgrade && sudo apt install; systemctl reboot -i
+ 1358  whereis dart
+ 1359  flutter
+ 1360  whereis flutter
+ 1361  clear
+ 1362  flutter run
+ 1363  flutter pub get
+ 1364  clear
+ 1365  ls
+ 1366  cd QuteQuoteServer/
+ 1367  make verify
+ 1368  clear
+ 1369  make
+ 1370  clear
+ 1371  make all
+ 1372  claer
+ 1373  clear
+ 1374  make runApplication
+ 1375  make all
+ 1376  make 
+ 1377  clear
+ 1378  make
+ 1379  clear
+ 1380  make
+ 1381  clera
+ 1382  ls
+ 1383  make
+ 1384  mvn verify
+ 1385  clera
+ 1386  clear
+ 1387  cd QuteQuoteServer/
+ 1388  make
+ 1389  ls
+ 1390  cd QuteQuoteServer/
+ 1391  make
+ 1392  ls
+ 1393  clear
+ 1394  make
+ 1395  flutter run
+ 1396  make
+ 1397  flutter run
+ 1398  clear
+ 1399  flutter run
+ 1400  clear
+ 1401  flutter run
+ 1402  clear
+ 1403  cd QuteQuoteServer/
+ 1404  cd app
+ 1405  flutter run
+ 1406  clear
+ 1407  wtc-lms login
+ 1408  wtc-lms modules
+ 1409  wtc-lms topics bent-third-still
+ 1410  wtc-lms problems tidy-foamy-angle
+ 1411  wtc-lms start half-old-belt
+ 1412  git clone git@gitlab.wethinkcode.co.za:nknkosi5957/submission-201-brownfields-005-001.git
+ 1413  ls
+ 1414  cd submission-201-brownfields-005-001/
+ 1415  code .
+ 1416  cd 
+ 1417  mvn exec:java
+ 1418  ls
+ 1419  cd problem-y2-game-of-life/
+ 1420  ls
+ 1421  cd problem-y2-assessments-001/
+ 1422  ls
+ 1423  clear
+ 1424  ls
+ 1425  mvn exec:java
+ 1426  clear
+ 1427  mvn exec:java
+ 1428  clear
+ 1429  git clone git@gitlab.wethinkco.de:nknkosi/y2-submission-game-of-life.git
+ 1430  ls
+ 1431  cd y2-submission-game-of-life/
+ 1432  ls
+ 1433  git status
+ 1434  git add .
+ 1435  git status
+ 1436  git restore --staged problem-y2-game-of-life/problem-y2-assessments-001
+ 1437  git status
+ 1438  git add .
+ 1439  git status
+ 1440  git commit "putting the assessment inside the repo I created"
+ 1441  git commit -m "putting the assessment inside the repo I created"
+ 1442  git push
+ 1443  git status
+ 1444  git add .
+ 1445  ls
+ 1446  git status
+ 1447  git commit -m "made some changes"
+ 1448  git push
+ 1449  cd 
+ 1450  wtc-lms login
+ 1451  wtc-lms problems
+ 1452  cd y2-submission-game-of-life/
+ 1453  ls
+ 1454  git status
+ 1455  git add .
+ 1456  git status
+ 1457  git commit -m "changes in pomfile"
+ 1458  git push
+ 1459  git status
+ 1460  git add .
+ 1461  git commit -m "changes in server class"
+ 1462  git push
+ 1463  ls
+ 1464  cd Pictures/
+ 1465  ls
+ 1466  cd QuteQuotes/
+ 1467  code .
+ 1468  flutter run
+ 1469  mkdir UdemyFlutterBootcamp
+ 1470  mvn compile && package
+ 1471  ls
+ 1472  cd problem-y2-game-of-life/
+ 1473  ls
+ 1474  cd problem-y2-assessments-001/
+ 1475  ls
+ 1476  mvn compile && package
+ 1477  mvn compile && mvn package
+ 1478  java -jar target/game_of_life-1.0-SNAPSHOT-jar-with-dependencies.jar 
+ 1479  java -jar target/game_of_life-1.0-SNAPSHOT-shaded.jar
+ 1480  cd problem-y2-assessments-001/
+ 1481  ls
+ 1482  cd problem-y2-game-of-life/
+ 1483  ls
+ 1484  cd problem-y2-assessments-001/
+ 1485  ls
+ 1486  java -jar target/game_of_life-1.0-SNAPSHOT-shaded.jar
+ 1487  java -jar target/game_of_life-1.0-SNAPSHOT-jar-with-dependencies.jar 
+ 1488  make
+ 1489  cd problem-y2-game-of-life/
+ 1490  cd problem-y2-assessments-001/
+ 1491  make
+ 1492  cd y2-submission-game-of-life/
+ 1493  git status
+ 1494  git add .
+ 1495  git commit -m "changes in makefile"
+ 1496  git push
+ 1497  python3 -m http.server 9000
+ 1498  WEB Development
+ 1499  mkdir WEB Development
+ 1500  ls
+ 1501  cd WEB/
+ 1502  ls
+ 1503  touch index.html
+ 1504  ls
+ 1505  code .
+ 1506  python3 -m http.server 9000
+ 1507  flutter upgrade
+ 1508  clear
+ 1509  flutter pub get
+ 1510  ls
+ 1511  cd app/
+ 1512  flutter pub get
+ 1513  ls
+ 1514  cd server/
+ 1515  mvn exec:java
+ 1516  ls
+ 1517  java -jar sever-1.0-SNAPSHOT.jar
+ 1518  clear
+ 1519  flutter doctor
+ 1520  cd QuteQuoteServer/
+ 1521  ls
+ 1522  mvn exec:java
+ 1523  ls
+ 1524  cd app/
+ 1525  flutter eun
+ 1526  flutter run
+ 1527  clear
+ 1528  flutter run
+ 1529  cd QuteQuoteServer/
+ 1530  mvn exec:java
+ 1531  cd app/
+ 1532  flutter run
+ 1533  cd QuteQuoteServer/
+ 1534  mvn exec:java
+ 1535  cd app/
+ 1536  flutter run
+ 1537  cd QuteQuoteServer/
+ 1538  mvn exec:java
+ 1539  cd app/
+ 1540  flutter run
+ 1541  cd app/
+ 1542  flutter run
+ 1543  cd QuteQuoteServer/
+ 1544  mvn exec:java
+ 1545  ls
+ 1546  cd submission-201-brownfields-005-001/
+ 1547  ls
+ 1548  git status
+ 1549  cd ls
+ 1550  ls
+ 1551  git status
+ 1552  git add .\
+ 1553  git add .
+ 1554  git commit -m "ap"
+ 1555  git push
+ 1556  ls
+ 1557  git status
+ 1558  cd ..
+ 1559  ls
+ 1560  mkdir Wethinkcode
+ 1561  cd Wethinkcode/
+ 1562  git clone https://gitlab.wethinkcode.co.za/nknkosi5957/submission-201-brownfields-005-001.git
+ 1563  git clone git@gitlab.wethinkcode.co.za:nknkosi5957/submission-201-brownfields-005-001.git
+ 1564  git status
+ 1565  cd submission-201-brownfields-005-001/
+ 1566  git status
+ 1567  git add .
+ 1568  git commit -m "app"
+ 1569  git push
+ 1570  cd Wethinkcode/submission-201-brownfields-005-001/
+ 1571  code .
+ 1572  mkdir Practice
+ 1573  ls
+ 1574  cd Practice
+ 1575  flutter doctor
+ 1576  maven initialise
+ 1577  mvn initialise
+ 1578  mvn verify
+ 1579  mvn init
+ 1580  mvn initialize
+ 1581  mvn verify
+ 1582  mvn initialize
+ 1583  mvn verify
+ 1584  curl -X POST -d 'name=Nommy' http://localhost:8080/user
+ 1585  curl -X POST -H "Content-Type: application/json" -d'{"name": "Nommy"}' http://llocalhost:8080/user
+ 1586  curl -X POST -H "Content-Type: application/json" -d'{"name": "Nommy"}' http://localhost:8080/user
+ 1587  curl -X POST -H "Content-Type: application/json" -d'{"username": "Nommy"}' http://localhost:8080/user
+ 1588  ls
+ 1589  cd Downloads/
+ 1590  cd PracticeDatabase/
+ 1591  sqlite3 users.db
+ 1592  ls
+ 1593  rm users.db 
+ 1594  sqlite3 users.db
+ 1595  cd Downloads/
+ 1596  chmod +x wtc-lms
+ 1597  ls
+ 1598  cd ../bin/
+ 1599  ls
+ 1600  mv ~/Downloads/wtc-lms .
+ 1601  wtc-lms --version
+ 1602  wtc-lms login
+ 1603  cd ..
+ 1604  clear
+ 1605  wtc-lms modules
+ 1606  wtc-lms topics bent-third-still
+ 1607  wtc-lms problems tidy-foamy-angle
+ 1608  wtc-lms problems lewd-sour-lady
+ 1609  wtc-lms start wild-null-hand
+ 1610  wtc-lms history half-old-belt
+ 1611  wtc-lms start wild-null-hand
+ 1612  git clone git@gitlab.wethinkcode.co.za:nknkosi5957/submission-201-brownfields-99-002.git
+ 1613  ls
+ 1614  cd submission-201-brownfields-99-002/
+ 1615  code .
+ 1616  ls
+ 1617  cd submission-201-brownfields-99-002/
+ 1618  ls
+ 1619  whereis words.db
+ 1620  clear
+ 1621  mvn exec:java
+ 1622  clear
+ 1623  mvn exec:java
+ 1624  make all
+ 1625  make test
+ 1626  clear
+ 1627  javascript --version
+ 1628  nodejs --version
+ 1629  sudo apt install nodejs
+ 1630  apt-get update
+ 1631  sudo apt-get update
+ 1632  sudo apt-get update && sudo upgrade
+ 1633  sudo apt install nodejs
+ 1634  java --version
+ 1635  git --version
+ 1636  git clone https://github.com/nkosi960/hello.git
+ 1637  ls
+ 1638  cd uss-newton/
+ 1639  git config --list
+ 1640  git config user.name "Nkosingiphile"
+ 1641  git config user.email "nn0606160@gmail.com"
+ 1642  git config --list
+ 1643  cd 
+ 1644  ssh-keygen -t ed25519
+ 1645  xclip
+ 1646  xclip -sel clip < ~/.ssh/id_ed25519.pub 
+ 1647  git clone git@github.com:nkosi960/hello.git
+ 1648  ls
+ 1649  cd hello/
+ 1650  ls
+ 1651  touch hi.txt
+ 1652  ls
+ 1653  git status
+ 1654  git add .
+ 1655  git commit -m "hh"
+ 1656  git push
+ 1657  git config --list
+ 1658  git config user.name "Nkosingiphile"
+ 1659  git config user.email "nn0606160@gmail.com"
+ 1660  touch m.txt
+ 1661  git status
+ 1662  git add .
+ 1663  git commit -m "nm"
+ 1664  git push
+ 1665  cd 
+ 1666  git config --list
+ 1667  cd hello/
+ 1668  git config --list
+ 1669  clear
+ 1670  node.js -v
+ 1671  node -v
+ 1672  sudo apt install nodejs npm
+ 1673  sudo apt-get update
+ 1674  sudo apt-get update --allow-unauthenticated
+ 1675  sudo apt install nodejs npm --allow-unauthenticated
+ 1676  sudo apt-get clean
+ 1677  sudo apt install nodejs npm
+ 1678  sudo apt-get install build-essential libssl-dev
+ 1679  cat /etc/apt/sources.list
+ 1680  sudo apt install nodejs
+ 1681  sudo apt install snapd
+ 1682  sudo snap install core
+ 1683  sudo snap install node --classic
+ 1684  node
+ 1685  clear
+ 1686  UmuziSkeys
+ 1687  mkdir UmuziSkeys
+ 1688  ls
+ 1689  cd UmuziSkeys/
+ 1690  ssh-keygen -t ed25519 
+ 1691  clear
+ 1692  pwd
+ 1693  ssh-keygen -t ed25519 
+ 1694  cd 
+ 1695  ssh-keygen -t ed25519 
+ 1696  ssh-keygen -t ed25519
+ 1697  ls
+ 1698  clear
+ 1699  ssh-keygen -t ed25519
+ 1700  touch muzikey
+ 1701  ssh-keygen -t ed25519
+ 1702  cd UmuziSkeys/
+ 1703  ls
+ 1704  clear
+ 1705  ssh-keygen -t ed25519
+ 1706  clear
+ 1707  clearty
+ 1708  history
+ 1709  git clone git@gitlab.wethinkco.de:imogano/expenser-1-20105.git
+ 1710  ls
+ 1711  cd expenser-1-20105/
+ 1712  ls
+ 1713  clear
+ 1714  git clone git@gitlab.wethinkco.de:imogano/expenser-1-20105.git
+ 1715  ls
+ 1716  cd expenser-1-20105/
+ 1717  git --list
+ 1718  history
+ 1719  git config --list
+ 1720  git branch
+ 1721  git branch -a
+ 1722  git checkout nknkosi-settle-an-expense
+ 1723  git status
+ 1724  git branch
+ 1725  git status
+ 1726  git restore src/main/resources/templates/home.html
+ 1727  git restore src/main/java/za/co/wethinkcode/weshare/WeShareServer.java
+ 1728  git staus
+ 1729  git status
+ 1730  git add .
+ 1731  git commit -m "updated settlementViewController method"
+ 1732  git push
+ 1733  git branch
+ 1734  git pull origin imogano/view-nett-expenses
+ 1735  git status
+ 1736  git add .
+ 1737  git commit -m "edited a bit"
+ 1738  git push
+ 1739  git status
+ 1740  git add .
+ 1741  git commit -m "added route on server"
+ 1742  git push
+ 1743  make run
+ 1744  clear; mvn test -Dtest=SettleClaimTest
+ 1745  history
+ 1746  git pull origin imogano/view-nett-expenses
+ 1747  cd expenser-1-20105/
+ 1748  git pull origin imogano/view-nett-expenses
+ 1749  mvn test -Dtest=SettleClaimTest
+ 1750  cd expenser-1-20105/
+ 1751  mvn -Dtest=SettleClaimTest
+ 1752  ls
+ 1753  clear
+ 1754  ls
+ 1755  mvn test -Dtest=SettleClaimTest
+ 1756  cd expenser-1-20105/
+ 1757  git status
+ 1758  git add .
+ 1759  git commit -m "Fixed the null error as the test was failing"
+ 1760  git status
+ 1761  git add .
+ 1762  git commit -m "updated the home.html file to cater for the null error"
+ 1763  git push
+ 1764  git pull
+ 1765  branch --list
+ 1766  branch
+ 1767  git branch
+ 1768  git status
+ 1769  git add .
+ 1770  git commit -m "updated yml file"
+ 1771  git push
+ 1772  git pull
+ 1773  git status
+ 1774  git add .
+ 1775  git commit -m "made yml valid"
+ 1776  git push
+ 1777  cd 
+ 1778  wtc-lms login
+ 1779  wtc-lms current_iteration
+ 1780  wtc-lms
+ 1781  wtc-lms complete_iteration
+ 1782  wtc-lms login
+ 1783  wtc-lms current_iteration
+ 1784  wtc-lms start_assessment
+ 1785  code Problems/assessments/assessment-tiny-harsh-union.yml 
+ 1786  wtc-lms submit_assessment
+ 1787  wtc-lms current_iteration
+ 1788  javascript
+ 1789  nodejs
+ 1790  node -v
+ 1791  node
+ 1792  ls
+ 1793  mkdir Node
+ 1794  wtc-lms login
+ 1795  wtc-lms current_iteration
+ 1796  wtc-lms complete_iteration
+ 1797  wtc-lms login
+ 1798  wtc-lms current_iteration
+ 1799  wtc-lms start_assessment
+ 1800  code Problems/assessments/assessment-hot-abaft-shame.yml 
+ 1801  wtc-lms submit_assessment
+ 1802  wtc-lms current_iteration
+ 1803  wtc-lms complete_iteration
+ 1804  wtc-lms current_iteration
+ 1805  wtc-lms login
+ 1806  wtc-lms current_iteration
+ 1807  wtc-lms complete_iteration
+ 1808  wtc-lms current_iteration
+ 1809  wtc-lms start_iteration
+ 1810  wtc-lms modules
+ 1811  wtc-lms topics bent-third-still
+ 1812  wtc-lms problems tidy-foamy-angle
+ 1813  wtc-lms topics mean-nifty-brief
+ 1814  wtc-lms problems ten-gaudy-dare
+ 1815  wtc-lms start rabid-irate-spot
+ 1816  wtc-lms --version
+ 1817  wtc-lms start rabid-irate-spot
+ 1818  git clone git@gitlab.wethinkcode.co.za:nknkosi5957/submission-202-expenser-1.git
+ 1819  code submission-202-expenser-1/
+ 1820  history
+ 1821  cd expenser-1-20105/
+ 1822  git status
+ 1823  git pull origin main
+ 1824  code .
+ 1825  cd
+ 1826  cd submission-202-expenser-1/
+ 1827  git status
+ 1828  git add .
+ 1829  git commit -m "pushing the part I did in group collaboration as individual."
+ 1830  git push
+ 1831  x-special/nautilus-clipboard
+ 1832  copy
+ 1833  file:///home/nkosingiphilenkosi/expenser-1-20105
+ 1834  git status
+ 1835  git add .
+ 1836  git commit -m "fixed my email address on the stories.yaml file"
+ 1837  git push
+ 1838  wtc-lms modules
+ 1839  wtc-lms topics mean-nifty-brief
+ 1840  wtc-lms problems ten-gaudy-dare
+ 1841  wtc-lms grade rabid-irate-spot
+ 1842  wtc-lms history rabid-irate-spot
+ 1843  ls
+ 1844  ls /
+ 1845  mkdir git-basic-exercises
+ 1846  cd git-basic-exercises/
+ 1847  cd
+ 1848  history
+ 1849  git config --list
+ 1850  git config user.name "Nkosingiphile"
+ 1851  git status
+ 1852  ls -a
+ 1853  git status
+ 1854  git config --list
+ 1855  git config user.name "Nkosingiphile"
+ 1856  git config user.email "nn0606160@gmail.com"
+ 1857  git config --list
+ 1858  ls -a
+ 1859  git status
+ 1860  touch README.md
+ 1861  ls -a
+ 1862  git status
+ 1863  git log
+ 1864  git add
+ 1865  git add .
+ 1866  git status
+ 1867  git rm --cached README.md 
+ 1868  git status
+ 1869  git add README.md 
+ 1870  git commit -m "initial commit"
+ 1871  git log
+ 1872  nano README.md 
+ 1873  cat README.md 
+ 1874  git status
+ 1875  git add README.md 
+ 1876  git commit -m "second commit"
+ 1877  nano README.md 
+ 1878  git add README.md 
+ 1879  git commit -m "third commit"
+ 1880  git log
+ 1881  git checkout 3e03747bdf6c5ca0aed2e3fecd97260906cd4498
+ 1882  cat README.md 
+ 1883  git checkout main
+ 1884  git checkout master
+ 1885  cat README.md 
+ 1886  git branch
+ 1887  git checkout -b milkshake-flavours
+ 1888  git branch
+ 1889  nano milkshakes.md
+ 1890  git status
+ 1891  git add milkshakes.md 
+ 1892  git commit -m "added initial flavours"
+ 1893  git log
+ 1894  git checkout master
+ 1895  git log
+ 1896  git checkout -b history
+ 1897  git log
+ 1898  git branch
+ 1899  history > history.txt
+ 1900  git status
+ 1901  git add history.txt 
+ 1902  git commit -m "added history"
+ 1903  git log
+ 1904  git checkout milkshake-flavours 
+ 1905  git log
+ 1906  nano milkshakes.md
+ 1907  git status
+ 1908  git add milkshakes.md 
+ 1909  git commit -m "random readme changes"
+ 1910  checkout history
+ 1911  git checkout history
+ 1912  cat README.md 
+ 1913  git branch
+ 1914  rm README.md 
+ 1915  echo "booya" > README.md
+ 1916  git status
+ 1917  git add README.md 
+ 1918  git commit -m "rewote readme"
+ 1919  git checkout master 
+ 1920  ls
+ 1921  git log
+ 1922  git checkout milkshake-flavours 
+ 1923  ls
+ 1924  git log
+ 1925  git checkout history
+ 1926  ls
+ 1927  gi log
+ 1928  git log
+ 1929  git checkout master 
+ 1930  git merge milkshake-flavours 
+ 1931  ls
+ 1932  git log
+ 1933  git merge history 
+ 1934  ls
+ 1935  git log
+ 1936  git checkout history 
+ 1937  git log
+ 1938  git checkout milkshake-flavours 
+ 1939  git log
+ 1940  git checkout history 
+ 1941  git merge master 
+ 1942  git log
+ 1943  git remote add origin git@github.com:nkosi960/git-basic-exercises.git
+ 1944  git branch -M main
+ 1945  git remote add origin git@github.com:nkosi960/git-basic-exercises.git
+ 1946  git branch -M main
+ 1947  git remote add origin git@github.com:nkosi960/git-basic-exercises.git
+ 1948  cd
+ 1949  git remote add origin git@github.com:nkosi960/git-basic-exercises.git
+ 1950  cd git-basic-exercises/
+ 1951  git remote add origin git@github.com:nkosi960/git-basic-exercises.git
+ 1952  git branch -M main
+ 1953  git push -u origin main
+ 1954  git push -u origin milkshake-flavours 
+ 1955  git branch 
+ 1956  git push -u origin master 
+ 1957  git branch
+ 1958  git checkout master 
+ 1959  git branch
+ 1960  ls
+ 1961  git checkout history 
+ 1962  cd ../
+ 1963  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+ 1964  cd a-repo-to-clone/
+ 1965  git log
+ 1966  git config --list
+ 1967  git config user.name "Nkosingiphile"
+ 1968  git config user.email "nn0606160@gmail.com"
+ 1969  git config --list
+ 1970  git branch -a
+ 1971  git checkout -b project/git-basic-exercises
+ 1972  git remote -v
+ 1973  git log
+ 1974  touch ignore-me.db
+ 1975  git status
+ 1976  nano .gitignore
+ 1977  git status
+ 1978  mkdir large-directory-that-should-be-local-only
+ 1979  cd large-directory-that-should-be-local-only/
+ 1980  nano readme.md
+ 1981  cd ..
+ 1982  git status
+ 1983  nano gitignore
+ 1984  nano .gitignore
+ 1985  git status
+ 1986  git add .gitignore 
+ 1987  git commit -m "added .gitignore"
+ 1988  git push
+ 1989  git push --set-upstream origin project/git-basic-exercises
+ 1990  clear
+ 1991  cd git-basic-exercises/
+ 1992  git config --list
+ 1993  git branch
+ 1994  mkdir git-basic-exercises
+ 1995  cd git-basic-exercises/
+ 1996  git init
+ 1997  git config user.name "Nkosingiphile"
+ 1998  git config user.email "nn0606160@gmail.com"
+ 1999  git config --list
+ 2000  tuch README.md
+ 2001  touch README.md
+ 2002  git add README.md 
+ 2003  git commit -m "initial commit"
+ 2004  git branch
+ 2005  git log
+ 2006  nano README.md 
+ 2007  git commit -m "second commit"
+ 2008  git add README.md 
+ 2009  git commit -m "second commit"
+ 2010  nano README.md 
+ 2011  git add README.md 
+ 2012  git commit -m "third commit"
+ 2013  git log
+ 2014  git checkout 275090c21c319b2c830887248cc65cfdfc3b6fa3
+ 2015  git checkout master 
+ 2016  git branch
+ 2017  git checkout -b milkshake-flavours
+ 2018  git branch
+ 2019  nano milkshakes.md
+ 2020  git add milkshakes.md 
+ 2021  git commit -m "added initial flavours"
+ 2022  git checkout master 
+ 2023  git checkout -b history
+ 2024  history > history.txt
